@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioDec", "AudioDec\AudioDec.vcxproj", "{AF7DA848-79E8-4780-983E-B5530749DA5A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E6FB8316-ADDA-41BE-AAB5-C11EC5E67C9A} = {E6FB8316-ADDA-41BE-AAB5-C11EC5E67C9A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioConvert", "AudioConvertDLL\AudioConvert\AudioConvert.vcxproj", "{E6FB8316-ADDA-41BE-AAB5-C11EC5E67C9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF7DA848-79E8-4780-983E-B5530749DA5A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF7DA848-79E8-4780-983E-B5530749DA5A}.Debug|Win32.Build.0 = Debug|Win32
+		{AF7DA848-79E8-4780-983E-B5530749DA5A}.Release|Win32.ActiveCfg = Release|Win32
+		{AF7DA848-79E8-4780-983E-B5530749DA5A}.Release|Win32.Build.0 = Release|Win32
+		{E6FB8316-ADDA-41BE-AAB5-C11EC5E67C9A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6FB8316-ADDA-41BE-AAB5-C11EC5E67C9A}.Debug|Win32.Build.0 = Debug|Win32
+		{E6FB8316-ADDA-41BE-AAB5-C11EC5E67C9A}.Release|Win32.ActiveCfg = Release|Win32
+		{E6FB8316-ADDA-41BE-AAB5-C11EC5E67C9A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

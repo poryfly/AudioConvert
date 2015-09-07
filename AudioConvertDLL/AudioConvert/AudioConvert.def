@@ -1,0 +1,4 @@
+LIBRARY "AudioConvert"
+
+EXPORTS
+	AudioConvert
